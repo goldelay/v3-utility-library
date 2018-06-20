@@ -626,5 +626,7 @@ MarkerWithLabel.prototype.setMap = function (theMap) {
   this.label.setMap(theMap);
 };
 
+/* this code goes conflicts with other library !!!!!!
 var module = module || {};
 module.exports = MarkerWithLabel;
+*/
